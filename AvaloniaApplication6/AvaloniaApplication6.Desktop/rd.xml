@@ -10,5 +10,6 @@
         <Assembly Name="Avalonia.Markup.Xaml" Dynamic="Required All"/>
         <Assembly Name="AvaloniaApplication6" Dynamic="Required All"/>
         <Assembly Name="SwatchAvalonia.Navigation" Dynamic="Required All"/>
+        <Assembly Name="SwatchAvalonia.AppWindow" Dynamic="Required All"/>
     </Application>
 </Directives>

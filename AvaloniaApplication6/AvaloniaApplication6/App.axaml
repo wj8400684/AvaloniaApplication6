@@ -15,7 +15,8 @@
     <Application.Styles>
         <FluentTheme />
         <!-- <StyleInclude Source="avares://Semi.Avalonia/Themes/Index.axaml" /> -->
-        <StyleInclude Source="avares://AvaloniaApplication6/Styles/NavigationViewStyle.axaml" />
+        <!-- <StyleInclude Source="avares://AvaloniaApplication6/Styles/NavigationViewStyle.axaml" /> -->
         <StyleInclude Source="avares://SwatchAvalonia.Navigation/Index.axaml" />
+        <StyleInclude Source="avares://SwatchAvalonia.AppWindow/Index.axaml" />
     </Application.Styles>
 </Application>
