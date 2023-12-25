@@ -21,7 +21,7 @@ sealed class Program
             .LogToTrace()
             .UseReactiveUI();
 
-        //return app.UsePlatformDetect();
+        return app.UsePlatformDetect();
 
             app.UseSkia();
 #if Linux
