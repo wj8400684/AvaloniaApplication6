@@ -1,0 +1,14 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ui="clr-namespace:SwatchAvalonia.Navigation.Controls;assembly=SwatchAvalonia.Navigation">
+
+    <ui:SymbolIconSource Symbol="Home" x:Key="HomeIcon" />
+    <ui:SymbolIconSource Symbol="HomeFilled" x:Key="HomeIconFilled" />
+    
+    <ui:SymbolIconSource Symbol="Play" x:Key="PlayIcon" />
+    <ui:SymbolIconSource Symbol="PlayFilled" x:Key="PlayIconFilled" />
+    
+    <ui:SymbolIconSource Symbol="Settings" x:Key="SettingsIcon" />
+    <ui:SymbolIconSource Symbol="SettingsFilled" x:Key="SettingsIconFilled" />
+    <!-- Add Styles Here -->
+</ResourceDictionary>
