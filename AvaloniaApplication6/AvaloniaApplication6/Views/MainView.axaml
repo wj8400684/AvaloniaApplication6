@@ -7,17 +7,21 @@
              x:Class="AvaloniaApplication6.Views.MainView"
              xmlns:ui="clr-namespace:SwatchAvalonia.Navigation.Controls;assembly=SwatchAvalonia.Navigation"
              x:DataType="vm:MainViewModel">
-  <Design.DataContext>
-    <!-- This only sets the DataContext for the previewer in an IDE,
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
          to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
-    <vm:MainViewModel />
-  </Design.DataContext>
-    <ui:NavigationView PaneDisplayMode="Left">
+        <vm:MainViewModel />
+    </Design.DataContext>
+    <ui:NavigationView PaneDisplayMode="Left" Classes="SampleAppNav"
+                       IsSettingsVisible="False">
         <ui:NavigationView.MenuItems>
-            <ui:NavigationViewItem Content="Menu Item1" Tag="SamplePage1" IconSource="Play"/>
-            <ui:NavigationViewItem Content="Menu Item2" Tag="SamplePage2" IconSource="Save" />
-            <ui:NavigationViewItem Content="Menu Item3" Tag="SamplePage3" IconSource="Refresh" />
-            <ui:NavigationViewItem Content="Menu Item4" Tag="SamplePage4" IconSource="Download" />
+            <ui:NavigationViewItem Content="Menu Item1" Tag="SamplePage1" IconSource="Play" Classes="SampleAppNav"/>
+            <ui:NavigationViewItem Content="Menu Item2" Tag="SamplePage2" IconSource="Save" Classes="SampleAppNav"/>
+            <ui:NavigationViewItem Content="Menu Item3" Tag="SamplePage3" IconSource="Refresh" Classes="SampleAppNav"/>
+            <ui:NavigationViewItem Content="Menu Item4" Tag="SamplePage4" IconSource="Download" Classes="SampleAppNav"/>
         </ui:NavigationView.MenuItems>
+        <ui:NavigationView.FooterMenuItems>
+            <ui:NavigationViewItem Content="Menu Item4" Tag="SamplePage4" IconSource="Setting" Classes="SampleAppNav"/>
+        </ui:NavigationView.FooterMenuItems>
     </ui:NavigationView>
 </UserControl>
